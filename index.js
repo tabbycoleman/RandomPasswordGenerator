@@ -31,9 +31,14 @@ function generatePassword(){
          let randomIndex = Math.floor(Math.random()*48)
          password2.push(characters[randomIndex])
         }
+            
             password1text.textContent = password1.join("")
             password2text.textContent = password2.join("")
+            
         }
+        password1text = password1.join("")
+        password2text = password2.join("")
+
     }
 
 function copyPW1ToClipboard(){
@@ -43,5 +48,11 @@ function copyPW1ToClipboard(){
 }
 
 
+
+function copyPW2ToClipboard(){
+    let copyText = password2text
+    navigator.clipboard.writeText(copyText.value);
+    alert("Copied the text: " + copyText.value);
+}
 
 
