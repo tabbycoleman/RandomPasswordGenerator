@@ -43,16 +43,15 @@ function generatePassword(){
 
 function copyPW1ToClipboard(){
     let copyText = password1text
-    navigator.clipboard.writeText(copyText.value);
-    alert("Copied the text: " + copyText.value);
+    navigator.clipboard.writeText(password1text);
+    alert("Copied the text: " + password1text);
 }
 
 
 
 function copyPW2ToClipboard(){
-    let copyText = password2text
-    navigator.clipboard.writeText(copyText.value);
-    alert("Copied the text: " + copyText.value);
+    navigator.clipboard.writeText(password1text);
+    alert("Copied the text: " + password1text);
 }
 
 
