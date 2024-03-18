@@ -1,0 +1,121 @@
+:root{
+    --lightgreen: #10B981;
+}
+
+html *{
+}
+
+body {
+    
+    background-color: #1F2937;
+    margin: 0 auto;
+    width: 430px;
+    
+}
+
+.header{
+    font-family: Karla;
+    border-bottom: solid 1px #2F3E53;
+    padding-bottom: 30px;
+}
+
+.header h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-top: 115px
+}
+
+.header h2{
+    font-size: 1.4em;
+    font-weight: 200;
+    color: #D5D4D8;
+    margin-bottom: 51px;
+    margin-top: 10px;
+}
+
+.ranpass{
+    color: #55F991;
+}
+
+.passwords{
+    font-family: Inter;
+}
+
+.inputDiv{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.passwordLengthBox{
+    background-color: #ECFDF5;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: Inter;
+    width: 200px;
+}
+
+
+button{
+    background-color: var(--lightgreen);
+    border: none;
+    padding: 12px 17px;
+    color: white;
+    border-radius: 6px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+.copyOnClick{
+    background-color: var(--lightgreen);
+    border: none;
+    color: white;
+    border-radius: 6px;
+    font-family: Inter;
+    font-weight: 500;
+    padding: 6px;
+}
+
+button img{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    
+}
+
+.passwords{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copytoclip{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.passwordbox{
+    background-color: #273549;
+    height: 30px;
+    width: 180px;
+    border-radius: 6px;
+    margin-top: 30px;
+    padding: 5px 10px;
+    color: var(--lightgreen);
+    text-align: center;
+    line-height: 0px;
+    font-weight: 600;
+}
+
+
+.numandsymbols{
+    color: #ECFDF5;
+}
+
+.checkbox{
+    
+}

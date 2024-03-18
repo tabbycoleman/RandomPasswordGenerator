@@ -1,0 +1,36 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap')
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap')
+</style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Generate a <br><span class="ranpass">random password</span></h1>
+            <h2>Never use an insecure password again.</h2>
+            <div class="inputDiv">
+                <input class="passwordLengthBox" id="passwordLength" placeholder="Enter password length" >
+                <div class="checkbox"> <p class="numandsymbols">Turn off numbers and symbols? 
+                <input type="checkbox" class="numandsymbolscheckbox" id="checkbox"> </p> </div>
+                <button id="generate-password" onclick="generatePassword()">Generate passwords</button>
+            </div>
+        </div>
+        <div class="passwords">
+            <div class="passwordbox">
+                   <p id="password1"></p>
+            </div>
+            <div class="passwordbox">
+                <p id="password2"></p>
+            </div>
+        </div>
+        <div class="copytoclip">
+        <button class="copyOnClick" onclick="copyPW1ToClipboard()"><img src="https://www.svgrepo.com/show/372323/copy-to-clipboard.svg"></button>
+         <button class="copyOnClick" onclick="copyPW2ToClipboard()"><img src="https://www.svgrepo.com/show/372323/copy-to-clipboard.svg"></button>
+         </div>
+        <script src="index.js"></script>
+    </body>
+</html>
